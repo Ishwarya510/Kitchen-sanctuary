@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-detail</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>  
+          <div class="container">
+        <div class="navbar">
+        <div class="logo">
+            <a href="main-proj.html"><img src="image.jpg" alt="" width="150px"></a>
+        </div>
+        <nav>
+            <ul id="MenuItem">
+                <li><a href="main-proj.html">Home</a></li>
+                <li><a href="products.html">Product</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="Accounts.html">Account</a></li>
+            </ul>
+            <img src="cart.png" alt="" width="30px">
+            <img src="menu.png" alt="" class="menu-icon" onclick="menutoggle()" >
+        </nav>
+    </div>
+    </div>
+<!----single product detail------>
+<div class="small-container single-product">
+     <div class="row">
+         <div class="col-2">
+<img src="Hydrabad-chicken.jpg" alt="" width="70%">
+         </div>
+          <div class="col-2">
+              <h1>Hydrabad chicken</h1>
+               <h4 align="center">4piece-Rs.200</h4>
+               <p><a href="" class="btn">Add To Cart</a></p>
+               <h3>Food Detail <i class="fa fa-indent"></i></h3><br>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic sed blanditiis similique vitae repellendus facere quidem accusantium atque neque obcaecati tempore quia, mollitia, quo deleniti pariatur fugiat. Velit, totam rerum. lo</p>
+          </div>
+     </div>
+  
+</div>
+
+<div class="footer">
+ <div class="container">
+   <div class="row">
+       <div class="footer-col-2">
+           <img src="image.jpg" alt="" width="250px">
+         <p align="center">Our purpose is to sustainably make  pleasure <br> and benefits of our Product to the many.</p>
+       </div>
+       <div class="footer-col-3">
+           <h3>Useful links</h3>
+           <ul>
+               <li>Coupons</li>
+               <li>Blog Post</li>
+               <li>Return Policy</li>
+               <li>Join Affiliate</li>
+           </ul>
+       </div>
+       <div class="footer-col-4">
+        <h3>Follow me</h3>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/ishwarya-p-3462101a4"><i class="fa fa-linkedin"></i>LinkedIn</a></li>
+            <li><a href="https://twitter.com/Ishwary87824843"><i class="fa fa-twitter"></i>Twitter</a></li>
+        </ul>
+    </div>
+   </div>
+   <hr>
+   <p class="copyright">Copyright&copy; 2020 - Ishwarya P</p>
+ </div>
+</div>
+<script>
+    var MenuItem = document.getElementById("MenuItem");
+MenuItem.style.maxHeight="0px";
+
+function menutoggle(){
+    if(MenuItem.style.maxHeight =="0px")
+    {
+        MenuItem.style.maxHeight = "200px";
+    }
+    else{
+        MenuItem.style.maxHeight = "0px";
+    }
+}
+</script>
+</body>
+</html>
